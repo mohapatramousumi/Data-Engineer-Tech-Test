@@ -50,8 +50,8 @@ To run the pipeline, change to the root folder and
 
 
 ## Project Structure
-- `main.py`: Main script to run the Apache Beam pipeline.
-- `your_module.py`: Contains the composite transforms and other processing logic.
+- `src/task1.py`: Script to run the Apache Beam pipeline for Task1 (individual transform steps).
+- `src/task2.py`: Contains the composite transforms and other processing logic.
 - `tests/`: Directory containing unit tests for the pipeline.
 - `output/`: Directory where output files are stored. This directory is gitignored.
 
