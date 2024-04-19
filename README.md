@@ -25,7 +25,7 @@ Once the virtual environment is activated, the project Python libraries can be i
 
 1.  Change to the root folder of this project e.g.
     ```
-    $ cd ~/Data-Engineer-Tech-Test
+    $ cd ~/code/Data-Engineer-Tech-Test
     ```
 2.  Install the project libraries using the `requirements.txt` file i.e.
     ```
@@ -35,10 +35,21 @@ Once the virtual environment is activated, the project Python libraries can be i
     
 1.  Change to the root folder of this project e.g.
     ```
-    $ cd ~/Data-Engineer-Tech-Test
+    $ cd ~/code/Data-Engineer-Tech-Test
     ```
     
 2.  Run the unit tests using this command `python -m pytest tests/`
+
+
+### Code style checks
+    
+1.  Change to the root folder of this project e.g.
+    ```
+    $ cd ~/code/Data-Engineer-Tech-Test
+    ```
+    
+2.  Run the code style checks using this command `mypy src tests`
+
 
 
 
